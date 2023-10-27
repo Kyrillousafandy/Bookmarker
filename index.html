@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <meta content="text/html;charset=utf-8"http-equiv=content-type><meta charset=utf-8>
+    <meta content="IE=edge"http-equiv=X-UA-Compatible>
+    <title>Bookmarker</title>
+    <meta content=" SMART LOGIN WITH VALIDATION AND REGISTER"name=description>
+    <meta content="Bookmarker,Book Marker ,Bookmark  ,Bookmark website ,FrontEnd"name=keywords>
+    <meta content="width=device-width,initial-scale=1,maximum-scale=1"name=viewport>
+    <meta content="KYRILLOS MAURICE"name=author>
+    <link rel="icon"  href="/image/add-bookmark.png">
+</head>
+<body>
+
+
+<header>
+ <div class="container">
+ <h3>Bookmarker</h3>
+ </div>
+</header>
+
+<div class="container">
+ <div class="inputFavoriteSites">
+    <div class="title">
+        <h2> Bookmark your favorite sites</h2>
+       </div>
+       <p>Site Name</p>
+		<input id="siteName" placeholder="Bookmark Name" type="text" />
+		<p>Site URL</p>
+		<input id="siteUrl" placeholder="website URL" type="text" />
+		<div class="m-auto">
+		<button  class="btn btn-primary mt-2" onclick="submit()">Submit</button>
+
+ </div>
+
+</div>
+
+
+   <div class="bookList" id="bookmarkList">
+  
+   </div>
+
+   <footer>
+    <div class="container">
+        <p>&copy; <span id="copy"></span> Bookmarker Inc.</p>
+    </div>
+</footer>
+    
+
+ 
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/index.js"></script>
+    
+</body>
+</html>
